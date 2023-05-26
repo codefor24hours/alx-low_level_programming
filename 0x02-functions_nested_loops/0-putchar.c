@@ -10,14 +10,13 @@
 
 int main(void)
 {
+    char rotimi[] = "_putchar";
+	  int c;
 
-char str[9] = "_putchar";
-int i;
-
-for (i = 0; i < 8; i++)
-{
-_putchar(str[i]);
-}
-_putchar('\n');
-return (0);
+	  for (c = 0; c < 8; c++)
+	  {
+		    _putchar(rotimi[c]);
+	  }
+	  _putchar('\n');
+	  return (0);
 }
